@@ -1,0 +1,16 @@
+# TouchTalk
+
+I wear in-ear monitor headphones. Taking them out is a pain. I still 
+sometimes want to overhear conversations. I made this.
+
+TouchTalk is a status bar application that pipes the default sound
+input's audio back through the speakers. On laptops this should be the
+microphone, you might need to fiddle if your setup is different. 
+
+By default TouchTalk registers a global hotkey that allows you to mute
+and unmute at will, which is useful if you'd like to keep it running
+all the time. This key is Shift-Command-M. 
+
+Please don't run it without headphones plugged in. You probably won't
+enjoy the results. Unless you're into extreme noise music. I don't 
+judge.
