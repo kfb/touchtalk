@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04B85B5166CAA2B00D1FC98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B85B4166CAA2B00D1FC98 /* Cocoa.framework */; };
+		D04B85BF166CAA2B00D1FC98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D04B85BD166CAA2B00D1FC98 /* InfoPlist.strings */; };
+		D04B85C1166CAA2B00D1FC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04B85C0166CAA2B00D1FC98 /* main.m */; };
+		D04B85C5166CAA2B00D1FC98 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D04B85C3166CAA2B00D1FC98 /* Credits.rtf */; };
+		D04B85C8166CAA2B00D1FC98 /* KFBAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D04B85C7166CAA2B00D1FC98 /* KFBAppDelegate.mm */; };
+		D04B85CB166CAA2B00D1FC98 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04B85C9166CAA2B00D1FC98 /* MainMenu.xib */; };
+		D04B85DA166CAAA600D1FC98 /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = D04B85D3166CAAA600D1FC98 /* AudioFileReader.mm */; };
+		D04B85DB166CAAA600D1FC98 /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D04B85D5166CAAA600D1FC98 /* AudioFileWriter.m */; };
+		D04B85DC166CAAA600D1FC98 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = D04B85D7166CAAA600D1FC98 /* Novocaine.m */; };
+		D04B85DD166CAAA600D1FC98 /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D04B85D9166CAAA600D1FC98 /* RingBuffer.mm */; };
+		D04B85E4166CAB5500D1FC98 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B85E3166CAB5500D1FC98 /* Accelerate.framework */; };
+		D04B85E7166CAB6100D1FC98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B85E5166CAB6100D1FC98 /* AudioToolbox.framework */; };
+		D04B85E8166CAB6100D1FC98 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B85E6166CAB6100D1FC98 /* AudioUnit.framework */; };
+		D04B85EA166CAB6900D1FC98 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B85E9166CAB6900D1FC98 /* CoreAudio.framework */; };
+		D0BB910F166F56D300045E90 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB910E166F56D300045E90 /* Carbon.framework */; };
+		D0BB9113166F594B00045E90 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB9112166F594B00045E90 /* DDHotKeyCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D04B85B0166CAA2B00D1FC98 /* TouchTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B85B4166CAA2B00D1FC98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D04B85B7166CAA2B00D1FC98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D04B85B8166CAA2B00D1FC98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D04B85B9166CAA2B00D1FC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D04B85BC166CAA2B00D1FC98 /* TouchTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTalk-Info.plist"; sourceTree = "<group>"; };
+		D04B85BE166CAA2B00D1FC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D04B85C0166CAA2B00D1FC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04B85C2166CAA2B00D1FC98 /* TouchTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTalk-Prefix.pch"; sourceTree = "<group>"; };
+		D04B85C4166CAA2B00D1FC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D04B85C6166CAA2B00D1FC98 /* KFBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFBAppDelegate.h; sourceTree = "<group>"; };
+		D04B85C7166CAA2B00D1FC98 /* KFBAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KFBAppDelegate.mm; sourceTree = "<group>"; };
+		D04B85CA166CAA2B00D1FC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D04B85D2166CAAA600D1FC98 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		D04B85D3166CAAA600D1FC98 /* AudioFileReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioFileReader.mm; sourceTree = "<group>"; };
+		D04B85D4166CAAA600D1FC98 /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		D04B85D5166CAAA600D1FC98 /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		D04B85D6166CAAA600D1FC98 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		D04B85D7166CAAA600D1FC98 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+		D04B85D8166CAAA600D1FC98 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		D04B85D9166CAAA600D1FC98 /* RingBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RingBuffer.mm; sourceTree = "<group>"; };
+		D04B85E3166CAB5500D1FC98 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D04B85E5166CAB6100D1FC98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D04B85E6166CAB6100D1FC98 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		D04B85E9166CAB6900D1FC98 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D0BB910E166F56D300045E90 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D0BB9111166F594B00045E90 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		D0BB9112166F594B00045E90 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04B85AD166CAA2B00D1FC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BB910F166F56D300045E90 /* Carbon.framework in Frameworks */,
+				D04B85EA166CAB6900D1FC98 /* CoreAudio.framework in Frameworks */,
+				D04B85E7166CAB6100D1FC98 /* AudioToolbox.framework in Frameworks */,
+				D04B85E8166CAB6100D1FC98 /* AudioUnit.framework in Frameworks */,
+				D04B85E4166CAB5500D1FC98 /* Accelerate.framework in Frameworks */,
+				D04B85B5166CAA2B00D1FC98 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04B85A5166CAA2B00D1FC98 = {
+			isa = PBXGroup;
+			children = (
+				D0BB9110166F594B00045E90 /* DDHotKey */,
+				D04B85D1166CAAA600D1FC98 /* Novocaine */,
+				D04B85BA166CAA2B00D1FC98 /* TouchTalk */,
+				D04B85B3166CAA2B00D1FC98 /* Frameworks */,
+				D04B85B1166CAA2B00D1FC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04B85B1166CAA2B00D1FC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04B85B0166CAA2B00D1FC98 /* TouchTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04B85B3166CAA2B00D1FC98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB910E166F56D300045E90 /* Carbon.framework */,
+				D04B85E9166CAB6900D1FC98 /* CoreAudio.framework */,
+				D04B85E5166CAB6100D1FC98 /* AudioToolbox.framework */,
+				D04B85E6166CAB6100D1FC98 /* AudioUnit.framework */,
+				D04B85E3166CAB5500D1FC98 /* Accelerate.framework */,
+				D04B85B4166CAA2B00D1FC98 /* Cocoa.framework */,
+				D04B85B6166CAA2B00D1FC98 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04B85B6166CAA2B00D1FC98 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D04B85B7166CAA2B00D1FC98 /* AppKit.framework */,
+				D04B85B8166CAA2B00D1FC98 /* CoreData.framework */,
+				D04B85B9166CAA2B00D1FC98 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D04B85BA166CAA2B00D1FC98 /* TouchTalk */ = {
+			isa = PBXGroup;
+			children = (
+				D04B85C6166CAA2B00D1FC98 /* KFBAppDelegate.h */,
+				D04B85C7166CAA2B00D1FC98 /* KFBAppDelegate.mm */,
+				D04B85C9166CAA2B00D1FC98 /* MainMenu.xib */,
+				D04B85BB166CAA2B00D1FC98 /* Supporting Files */,
+			);
+			path = TouchTalk;
+			sourceTree = "<group>";
+		};
+		D04B85BB166CAA2B00D1FC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04B85BC166CAA2B00D1FC98 /* TouchTalk-Info.plist */,
+				D04B85BD166CAA2B00D1FC98 /* InfoPlist.strings */,
+				D04B85C0166CAA2B00D1FC98 /* main.m */,
+				D04B85C2166CAA2B00D1FC98 /* TouchTalk-Prefix.pch */,
+				D04B85C3166CAA2B00D1FC98 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04B85D1166CAAA600D1FC98 /* Novocaine */ = {
+			isa = PBXGroup;
+			children = (
+				D04B85D2166CAAA600D1FC98 /* AudioFileReader.h */,
+				D04B85D3166CAAA600D1FC98 /* AudioFileReader.mm */,
+				D04B85D4166CAAA600D1FC98 /* AudioFileWriter.h */,
+				D04B85D5166CAAA600D1FC98 /* AudioFileWriter.m */,
+				D04B85D6166CAAA600D1FC98 /* Novocaine.h */,
+				D04B85D7166CAAA600D1FC98 /* Novocaine.m */,
+				D04B85D8166CAAA600D1FC98 /* RingBuffer.h */,
+				D04B85D9166CAAA600D1FC98 /* RingBuffer.mm */,
+			);
+			path = Novocaine;
+			sourceTree = "<group>";
+		};
+		D0BB9110166F594B00045E90 /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB9111166F594B00045E90 /* DDHotKeyCenter.h */,
+				D0BB9112166F594B00045E90 /* DDHotKeyCenter.m */,
+			);
+			path = DDHotKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04B85AF166CAA2B00D1FC98 /* TouchTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B85CE166CAA2B00D1FC98 /* Build configuration list for PBXNativeTarget "TouchTalk" */;
+			buildPhases = (
+				D04B85AC166CAA2B00D1FC98 /* Sources */,
+				D04B85AD166CAA2B00D1FC98 /* Frameworks */,
+				D04B85AE166CAA2B00D1FC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTalk;
+			productName = TouchTalk;
+			productReference = D04B85B0166CAA2B00D1FC98 /* TouchTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04B85A7166CAA2B00D1FC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KFB;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = D04B85AA166CAA2B00D1FC98 /* Build configuration list for PBXProject "TouchTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D04B85A5166CAA2B00D1FC98;
+			productRefGroup = D04B85B1166CAA2B00D1FC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04B85AF166CAA2B00D1FC98 /* TouchTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04B85AE166CAA2B00D1FC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B85BF166CAA2B00D1FC98 /* InfoPlist.strings in Resources */,
+				D04B85C5166CAA2B00D1FC98 /* Credits.rtf in Resources */,
+				D04B85CB166CAA2B00D1FC98 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04B85AC166CAA2B00D1FC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B85C1166CAA2B00D1FC98 /* main.m in Sources */,
+				D04B85C8166CAA2B00D1FC98 /* KFBAppDelegate.mm in Sources */,
+				D04B85DA166CAAA600D1FC98 /* AudioFileReader.mm in Sources */,
+				D04B85DB166CAAA600D1FC98 /* AudioFileWriter.m in Sources */,
+				D04B85DC166CAAA600D1FC98 /* Novocaine.m in Sources */,
+				D04B85DD166CAAA600D1FC98 /* RingBuffer.mm in Sources */,
+				D0BB9113166F594B00045E90 /* DDHotKeyCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D04B85BD166CAA2B00D1FC98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B85BE166CAA2B00D1FC98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D04B85C3166CAA2B00D1FC98 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B85C4166CAA2B00D1FC98 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D04B85C9166CAA2B00D1FC98 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B85CA166CAA2B00D1FC98 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04B85CC166CAA2B00D1FC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D04B85CD166CAA2B00D1FC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D04B85CF166CAA2B00D1FC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTalk/TouchTalk-Prefix.pch";
+				INFOPLIST_FILE = "TouchTalk/TouchTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D04B85D0166CAA2B00D1FC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTalk/TouchTalk-Prefix.pch";
+				INFOPLIST_FILE = "TouchTalk/TouchTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04B85AA166CAA2B00D1FC98 /* Build configuration list for PBXProject "TouchTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B85CC166CAA2B00D1FC98 /* Debug */,
+				D04B85CD166CAA2B00D1FC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B85CE166CAA2B00D1FC98 /* Build configuration list for PBXNativeTarget "TouchTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B85CF166CAA2B00D1FC98 /* Debug */,
+				D04B85D0166CAA2B00D1FC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04B85A7166CAA2B00D1FC98 /* Project object */;
+}
